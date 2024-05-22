@@ -55,7 +55,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="/customer">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Customer</span></a>
+                    <span>Anggota</span></a>
             </li>
 
             <!-- Divider -->
@@ -328,7 +328,7 @@
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Pilih "Keluar" di bawah jika Anda siap untuk mengakhiri sesi Anda saat ini.</div>
+                <div class="modal-body">Pilih "Keluar" jika anda yakin untuk Logout.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
                     <a href="{{ route('logout') }}" class="btn btn-danger" onclick="event.preventDefault();
