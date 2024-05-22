@@ -56,7 +56,7 @@
                                                         </div>
                                                         <div class="modal-footer">
                                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                                                        <form action="/customer/{{$item->id}}" method="post">
+                                                        <form action="/anggota/{{$item->id}}" method="post">
                                                             @method('DELETE')
                                                             @csrf
                                                             <button type="submit" class="btn btn-danger">Hapus</button>
