@@ -5,7 +5,7 @@
 @section('content')
     <div class="card">
     <div class="card-body">
-            <form method="POST" action="/anggota/{{$cus->id}}">
+            <form method="POST" action="/anggota/{{$ang->id}}">
                 @method('PUT')
                 @csrf
 
@@ -34,7 +34,7 @@
                     <input type="text" name="agama" value="{{$ang->agama}}" class="form-control" id="exampleInputPassword1">
                 </div>
                 
-                <button type="submit" class="btn btn-primary">Tambah Data</button>
+                <button type="submit" class="btn btn-primary">Edit Data</button>
             </form>
         </div>
         </div>
