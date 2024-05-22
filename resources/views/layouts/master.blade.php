@@ -53,7 +53,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="/customer">
+                <a class="nav-link" href="/anggota">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Anggota</span></a>
             </li>
